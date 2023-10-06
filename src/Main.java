@@ -79,8 +79,7 @@ public class Main {
     public static String endUp(String str){
 
         if(str.length() < 3){
-            String fullUpper = str.toUpperCase();
-            return fullUpper;
+            return str.toUpperCase();
         }
 
         String lastThree = str.substring(str.length()-3);
